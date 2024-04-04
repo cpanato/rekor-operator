@@ -3,14 +3,14 @@ module github.com/sigstore/rekor-operator
 go 1.17
 
 require (
-	github.com/go-logr/logr v1.2.2
+	github.com/go-logr/logr v1.4.1
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.18.1
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.23.0
 	k8s.io/apimachinery v0.23.0
 	k8s.io/client-go v0.23.0
-	k8s.io/klog/v2 v2.40.1
+	k8s.io/klog/v2 v2.120.1
 	sigs.k8s.io/controller-runtime v0.11.1
 )
 
